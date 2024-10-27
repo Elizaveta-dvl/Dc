@@ -1,0 +1,172 @@
+body{
+    background: rgb(210, 140, 140);
+}
+
+h1{
+    font-size: 32px;
+    margin: 10px;
+}
+
+h2{
+    font-size: 24px;
+    margin: 10px;
+}
+
+p{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+ul{
+    font-size: 16px;
+    color: rgb(108, 90, 200);
+}
+
+ol{
+    font-size: 16px;
+    color: rgb(94, 200, 90);
+}
+
+a{
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+
+.img0{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.content-left{
+    margin-right: 50px;
+    margin-left: 75px;
+    width: 500px;
+    background: aqua;
+    border-radius: 50px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.content-right{
+    margin-left: 50px;
+    max-width: 500px;
+    max-height: 500px;
+    background: aqua;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 20px;
+    
+}
+
+.content{
+    display: flex;
+    margin: 30px;
+}
+
+.header{
+    background-color: brown;
+    text-align: right;
+    padding: 20px;
+}
+
+.container{
+    background: aqua;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.block{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rebeccapurple;
+    width: 200px;
+    height: 200px;
+}
+
+.img1{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-2{
+    background: darkcyan;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.block-2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: lawngreen;
+    width: 200px;
+    height: 200px;
+}
+
+.container-3{
+    display: flex;
+    background: lightcoral;
+    border: solid black 2px;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+
+.block-3{
+    background: lightseagreen;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.container-4{
+    border: solid black 2px;
+    border-radius: 50px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.block-4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border: solid red 2px;
+    top: -150px;
+    left: 320px;
+    position: relative;
+}
+
+.block-5{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border: solid blue 2px;
+}
+.block-6{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border: solid green 2px;
+    top: 150px;
+    left: -320px;
+    position: relative;
+}
+
+.img2{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
